@@ -1,3 +1,7 @@
+## 🎉 1.0.6 `2024-02-16`
+### 🐛 Fix
+- Зависимости ([#8413cee](https://github.com/kwooshung/files/commit/8413cee368c8c8e8f7859184595f3997f70bf610))
+
 ## 🎉 1.0.5 `2024-02-16`
 ### 🐛 Fix
 - Категория ([#5c1404a](https://github.com/kwooshung/files/commit/5c1404a277f375bb7087f21ff3e4477242070737))
