@@ -101,7 +101,7 @@ Introduced in a global component, such as `Layout.tsx`, as shown below:
 
 ```tsx
 import '@kwooshung/react-icons/dist/index.css';
-import { KsIconsConfig, KsIconSymbol, KsIcons } from '@kwooshung/react-icons';
+import { KsIconsConfig, KsIconSymbol, KsIcon } from '@kwooshung/react-icons';
 
 const icons = [
   {

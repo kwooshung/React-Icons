@@ -1,3 +1,7 @@
+## 🎉 1.0.4 `2024-02-16`
+### 🐛 Fix
+- 修復package.json的路徑錯誤 ([#7d608c0](https://github.com/kwooshung/files/commit/7d608c0322d650f79f2052cb040c2b72bccc0c38))
+
 ## 🎉 1.0.3 `2024-02-16`
 ### 🐛 Fix
 - 維修文件導出 ([#a8c2719](https://github.com/kwooshung/files/commit/a8c2719d9373698614b415ed96790fbbdf6e3054))
