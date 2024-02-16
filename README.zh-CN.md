@@ -132,8 +132,8 @@ const icons = [
 const Demo = () => {
   return (
     <KsIconsConfig icongroup={icons} prefix='demo'>
-      <KsIcons name='logo' spin={100} />
-      <KsIcons name='user' />
+      <KsIcons name='thumb' spin={100} />
+      <KsIcons name='earth' />
     </KsIconsConfig>
   );
 };

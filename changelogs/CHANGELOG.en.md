@@ -1,3 +1,7 @@
+## 🎉 1.0.7 `2024-02-16`
+### 🐛 Fix
+- Repair the case details of the documentation documentation ([#80b791e](https://github.com/kwooshung/files/commit/80b791e67b62e1c2eddf264bfcead79e951dcd4b))
+
 ## 🎉 1.0.6 `2024-02-16`
 ### 🐛 Fix
 - Dependencies ([#8413cee](https://github.com/kwooshung/files/commit/8413cee368c8c8e8f7859184595f3997f70bf610))
