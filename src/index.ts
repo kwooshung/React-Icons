@@ -1,3 +1,3 @@
-export { default as IconsConfig } from './icons/IconProvider';
-export { default as KsSymbol } from './icons/symbol';
+export { default as KsIconsConfig } from './icons/IconProvider';
+export { default as KsIconSymbol } from './icons/symbol';
 export { default as KsIcons } from './icons';

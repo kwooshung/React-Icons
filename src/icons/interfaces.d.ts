@@ -19,7 +19,7 @@ export interface IIconList {
    * @zh 视图框
    * @en View box
    */
-  viewBox?: string;
+  viewBox: string;
   /**
    * @zh 图标列表
    * @en Icon list

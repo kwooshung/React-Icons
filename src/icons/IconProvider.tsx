@@ -8,19 +8,21 @@ import { IIconList, IIconProviderProps } from './interfaces';
  * @en Render icon
  * @param {ReactNode[]} icons 图标列表
  * @param {string} prefix 前缀
+ * @param {string} viewBox 视图框
  * @returns {ReactNode[]} React节点列表
  */
-const renderIcons = (icons: ReactNode[], prefix: string = ''): ReactNode[] =>
-  icons.map((icon: ReactNode, inx: number) => {
+const renderIcons = (icons: ReactNode[], prefix: string = '', viewBox: string = ''): ReactNode[] => {
+  return icons.map((icon: ReactNode, inx: number) => {
     // 确保 icon 是一个有效的 React 元素
-    if (isValidElement(icon) && icon.type === 'symbol' && icon.props) {
+    if (isValidElement(icon) && icon.props) {
       const element = icon as ReactElement;
       // 安全地访问 id 属性
       const iconId = element.props.id ? `ks-${prefix ? `${prefix}-` : ''}${element.props.id}` : `ks-icon-${inx}`;
-      return cloneElement(element, { id: iconId, key: inx });
+      return cloneElement(element, { id: iconId, viewBox: element.props.viewBox ? element.props.viewBox : viewBox, key: inx });
     }
     return icon;
   });
+};
 
 /**
  * @zh 渲染SVG
@@ -32,9 +34,10 @@ const renderIcons = (icons: ReactNode[], prefix: string = ''): ReactNode[] =>
 const renderSvg = (icongroup: IIconList[], prefix: string = ''): ReactNode[] =>
   icongroup.map((group, inx: number) => {
     const { id, className, viewBox, icons } = group;
+
     return (
-      <svg id={`ks-icons-${id ? id : inx}`} className={`${styles['ks-icons']}${className ? ` ${className}` : ''}`} viewBox={viewBox} key={inx}>
-        {renderIcons(icons, prefix)}
+      <svg id={`ks-icons-${id ? id : inx}`} className={`${styles['ks-icons']}${className ? ` ${className}` : ''}`} key={inx}>
+        {renderIcons(icons, prefix, viewBox)}
       </svg>
     );
   });
