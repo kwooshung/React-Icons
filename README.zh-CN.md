@@ -169,7 +169,7 @@ export default Demo;
 | className        | 类名                                                                 | `string`                                             | -      | 否   |
 | path其他内置参数 | 值                                                                   | `any`                                                | -      | 否   |
 
-### KsIcons
+### KsIcon
 
 #### Props
 
