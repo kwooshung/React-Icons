@@ -1,3 +1,7 @@
+## 🎉 1.0.3 `2024-02-16`
+### 🐛 Fix
+- Repair file export ([#a8c2719](https://github.com/kwooshung/files/commit/a8c2719d9373698614b415ed96790fbbdf6e3054))
+
 ## 🎉 1.0.2 `2024-02-16`
 ### 🐛 Fix
 - English document, part of Chinese is not translated into English ([#482c228](https://github.com/kwooshung/files/commit/482c228c24a72f7020ab65e0e6b4d3536ce35ba4))
