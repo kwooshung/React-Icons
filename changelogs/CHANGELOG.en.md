@@ -1,3 +1,7 @@
+## 🎉 1.0.8 `2024-02-16`
+### 🐛 Fix
+- Remove the invalid attribute, the default value of `ID` is` UNDEFINED` ([#32ef7b1](https://github.com/kwooshung/files/commit/32ef7b10e8493c1cbb93c3fe7bfa34b0ff6a9135))
+
 ## 🎉 1.0.7 `2024-02-16`
 ### 🐛 Fix
 - Repair the case details of the documentation documentation ([#80b791e](https://github.com/kwooshung/files/commit/80b791e67b62e1c2eddf264bfcead79e951dcd4b))

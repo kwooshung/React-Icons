@@ -1,3 +1,7 @@
+## 🎉 1.0.8 `2024-02-16`
+### 🐛 Fix
+- 刪除無效的屬性，` ([#32ef7b1](https://github.com/kwooshung/files/commit/32ef7b10e8493c1cbb93c3fe7bfa34b0ff6a9135))
+
 ## 🎉 1.0.7 `2024-02-16`
 ### 🐛 Fix
 - 修復文檔文檔的案例細節 ([#80b791e](https://github.com/kwooshung/files/commit/80b791e67b62e1c2eddf264bfcead79e951dcd4b))
