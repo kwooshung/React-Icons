@@ -1,3 +1,7 @@
+## 🎉 1.0.5 `2024-02-16`
+### 🐛 Fix
+- 类别 ([#5c1404a](https://github.com/kwooshung/files/commit/5c1404a277f375bb7087f21ff3e4477242070737))
+
 ## 🎉 1.0.4 `2024-02-16`
 ### 🐛 Fix
 - 修复package.json的路径错误 ([#7d608c0](https://github.com/kwooshung/files/commit/7d608c0322d650f79f2052cb040c2b72bccc0c38))

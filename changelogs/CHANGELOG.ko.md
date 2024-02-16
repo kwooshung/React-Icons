@@ -1,3 +1,7 @@
+## 🎉 1.0.5 `2024-02-16`
+### 🐛 Fix
+- 범주 ([#5c1404a](https://github.com/kwooshung/files/commit/5c1404a277f375bb7087f21ff3e4477242070737))
+
 ## 🎉 1.0.4 `2024-02-16`
 ### 🐛 Fix
 - package.json의 경로 오류를 수정하십시오 ([#7d608c0](https://github.com/kwooshung/files/commit/7d608c0322d650f79f2052cb040c2b72bccc0c38))
