@@ -1,3 +1,7 @@
+## 🎉 1.0.2 `2024-02-16`
+### 🐛 Fix
+- 英语文件，中文的一部分未翻译成英文 ([#482c228](https://github.com/kwooshung/files/commit/482c228c24a72f7020ab65e0e6b4d3536ce35ba4))
+
 ## 🎉 1.0.1 `2024-02-16`
 ### 🐛 Fix
 - 修改工作流程中的git地址 ([#db6c9c3](https://github.com/kwooshung/files/commit/db6c9c35d60c053bbe0dc399f3b94df251b5df65))
