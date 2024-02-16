@@ -12,7 +12,10 @@ describe('Icon 组件', () => {
 
     const svg = container.querySelector('svg') as SVGSVGElement;
     expect(svg).toBeTruthy();
-    expect(svg.getAttribute('type')).toBe('ks-icon-kkkkk-test-icon');
+    const useElement = svg.querySelector('use:first-child');
+    expect(useElement).toBeTruthy();
+    const href = useElement?.getAttribute('xlink:href');
+    expect(href).toBe('#ks-icon-kkkkk-test-icon');
   });
 
   it('应当应用正确的 ID 和 Class', () => {
