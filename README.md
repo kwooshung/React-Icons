@@ -182,7 +182,7 @@ For the following types, please refer to: [interfaces.d.ts](src/icons/interfaces
 | rotate     | Rotation angle     | `number`             | `0`           | No       |
 | spin       | Rotation animation | `number`\| `boolean` | `0`           | No       |
 
-#### 事件
+#### Events
 
 | Parameters    | Description        | Type                                     |
 | ------------- | ------------------ | ---------------------------------------- |
