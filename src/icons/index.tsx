@@ -45,7 +45,7 @@ const getStyle = (size: number = 0, rotate?: number, spin?: number | boolean): C
  * @param {IIconsProps} props 属性
  * @return {ReactNode} React节点
  */
-const Icon: FC<IIconsProps> = ({ name, id = '', className = '', size = 0, rotate = 0, spin = false, onClick, onDoubleClick }: IIconsProps): ReactNode => {
+const Icon: FC<IIconsProps> = ({ name, id = undefined, className = '', size = 0, rotate = 0, spin = false, onClick, onDoubleClick }: IIconsProps): ReactNode => {
   /**
    * @zh 图标上下文
    * @en Icon context
@@ -101,7 +101,7 @@ const Icon: FC<IIconsProps> = ({ name, id = '', className = '', size = 0, rotate
   };
 
   return (
-    <svg id={id} className={getCls} style={getStyles} type={getPrefix} onClick={handleClick} onDoubleClick={handleDoubleClick}>
+    <svg id={id} className={getCls} style={getStyles} onClick={handleClick} onDoubleClick={handleDoubleClick}>
       <use xlinkHref={`#${getPrefix}`} />
     </svg>
   );
