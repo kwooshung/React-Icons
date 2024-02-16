@@ -1,0 +1,37 @@
+@keyframes ks-icon-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ks-icons {
+  position: absolute;
+  display: none;
+  transform: translate(-100%, -100%);
+
+  > symbol {
+    &.fill,
+    > path.ks-icon-fill {
+      fill: currentColor;
+      stroke: none;
+    }
+
+    &.line,
+    > path.ks-icon-line {
+      stroke: currentColor;
+      fill: none;
+    }
+  }
+}
+
+.ks-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  color: inherit;
+  vertical-align: -2px;
+  font-style: normal;
+  transition:
+    color 300ms var(--ks-icon-ease, ease-in),
+    background 300ms var(--ks-icon-ease, ease-in);
+}
