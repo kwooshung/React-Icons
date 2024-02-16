@@ -169,7 +169,7 @@ For the following types, please refer to: [interfaces.d.ts](src/icons/interfaces
 | className        | className Style                                                                                                        | `string`                                             | -             | No       |
 | path其他内置参数 | value                                                                                                                  | `any`                                                | -             | No       |
 
-### KsIcons
+### KsIcon
 
 #### Props
 
