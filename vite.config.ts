@@ -55,14 +55,14 @@ export default defineConfig({
   build: {
     minify: 'terser',
     lib: {
-      entry: 'src/progressbar/index.tsx',
-      name: 'ReactProgressbarWrapper',
+      entry: 'src/index.ts',
+      name: 'ReactIcons',
       formats: ['cjs', 'es', 'umd'],
       fileName: (format) => `index.${format === 'es' ? 'esm' : format === 'cjs' ? 'cmd' : format}.js`
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
-      external: ['react', 'react-dom', 'react/jsx-runtime', 'classnames', '@kwooshung/randoms'],
+      external: ['react', 'react-dom', 'react/jsx-runtime', 'classnames'],
       output: {
         // 为各种格式提供全局变量名
         globals: {
