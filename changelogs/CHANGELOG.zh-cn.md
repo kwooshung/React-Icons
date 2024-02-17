@@ -1,3 +1,7 @@
+## 🎉 1.0.10 `2024-02-17`
+### 🐛 Fix
+- 修复程序包配置描述中的GitHub地址 ([#4ab136f](https://github.com/kwooshung/files/commit/4ab136f8a1942686641a8edd7daed99403ac7ac4))
+
 ## 🎉 1.0.9 `2024-02-16`
 ### 🐛 Fix
 - 修理测试案例 ([#4286fae](https://github.com/kwooshung/files/commit/4286fae024dd4e803c6595ebcc751c35e39d502e))
