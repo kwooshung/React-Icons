@@ -1,3 +1,7 @@
+## 🎉 1.0.11 `2024-02-18`
+### 🐛 Fix
+- 의존성 업데이트 ([#275b3df](https://github.com/kwooshung/react-icons/commit/275b3df1aab42434e2f85d56de6811c165f434f2))
+
 ## 🎉 1.0.10 `2024-02-17`
 ### 🐛 Fix
 - 수리 패키지 구성의 GitHub 주소 설명 설명 ([#4ab136f](https://github.com/kwooshung/files/commit/4ab136f8a1942686641a8edd7daed99403ac7ac4))
