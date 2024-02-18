@@ -1,6 +1,6 @@
 {
   "name": "@kwooshung/react-icons",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "title": "react-icons",
   "description": "It is more convenient to use svg as React icon, private project, convenient for your own use, may not be suitable for you.",
   "private": false,
@@ -72,19 +72,17 @@
   "devDependencies": {
     "@kwooshung/cvlar": "^1.3.7",
     "@swc/core": "^1.4.1",
-    "@swc/jest": "^0.2.36",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
     "@testing-library/react-hooks": "^8.0.1",
-    "@types/jest": "^29.5.12",
     "@types/node": "^20.11.19",
     "@types/randomatic": "^3.1.5",
-    "@types/react": "^18.2.55",
+    "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.0.1",
     "@typescript-eslint/parser": "^7.0.1",
     "@vitejs/plugin-react-swc": "^3.6.0",
-    "@vitest/coverage-v8": "^1.2.2",
+    "@vitest/coverage-v8": "^1.3.0",
     "commitlint": "^18.6.1",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
@@ -94,7 +92,6 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "husky": "^9.0.11",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^29.7.0",
     "jsdom": "^24.0.0",
     "less": "^4.2.0",
     "lint-staged": "^15.2.2",
@@ -114,7 +111,7 @@
     "vite": "^5.1.3",
     "vite-plugin-dts": "^3.7.2",
     "vite-plugin-imp": "^2.4.0",
-    "vitest": "^1.2.2"
+    "vitest": "^1.3.0"
   },
   "license": "MIT"
 }
