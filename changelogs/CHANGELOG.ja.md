@@ -1,3 +1,7 @@
+## 🎉 1.0.12 `2024-02-18`
+### 🐛 Fix
+- ログのエラーリンクを更新します ([#eb5f7c1](https://github.com/kwooshung/react-icons/commit/eb5f7c10762a70ca01054edcd297b28672443e31))
+
 ## 🎉 1.0.11 `2024-02-18`
 ### 📦 Release
 - 新しいバージョン1.0.11 ([#be13854](https://github.com/kwooshung/react-icons/commit/be138547013594fc314b457df0c40d4c164621ce))
