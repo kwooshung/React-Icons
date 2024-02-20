@@ -1,3 +1,11 @@
+## 🎉 2.0.2 `2024-02-21`
+### 🐛 Fix
+- 修改可维护性链接地址和徽章 ([#d9fdd29](https://github.com/kwooshung/React-Icons/commit/d9fdd29a6885edeb987de33dc4ab22fd304d8aa6))
+
+## 🎉 2.0.1 `2024-02-20`
+### 🐛 Fix
+- 解释文档，中文具有普遍文化，转化为英语 ([#adc1f33](https://github.com/kwooshung/React-Icons/commit/adc1f33762cf1505626c66145f25e4e009112936))
+
 ## 🎉 2.0.0 `2024-02-20`
 ### ✨ Feature
 - 新写作更简单，API更简单，并且与React开发习惯更一致 ([#fc1ac91](https://github.com/kwooshung/React-Icons/commit/fc1ac91d24c4aee0355a3fa992ab2f073683d65e))
