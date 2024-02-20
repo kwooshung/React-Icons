@@ -1,3 +1,7 @@
+## 🎉 2.0.3 `2024-02-21`
+### 🐛 Fix
+- Update dependence ([#9bbba0d](https://github.com/kwooshung/React-Icons/commit/9bbba0d2e2c10c2f459dc8c29ac976c4462796ac))
+
 ## 🎉 2.0.2 `2024-02-21`
 ### 🐛 Fix
 - Modify the MainTainability link address and badge ([#d9fdd29](https://github.com/kwooshung/React-Icons/commit/d9fdd29a6885edeb987de33dc4ab22fd304d8aa6))
