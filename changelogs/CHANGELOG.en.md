@@ -1,3 +1,7 @@
+## 🎉 2.0.1 `2024-02-20`
+### 🐛 Fix
+- Explain the documentation, Chinese with universal culture, translate into English ([#adc1f33](https://github.com/kwooshung/React-Icons/commit/adc1f33762cf1505626c66145f25e4e009112936))
+
 ## 🎉 2.0.0 `2024-02-20`
 ### ✨ Feature
 - The new writing is simpler, the API is simpler, and it is more in line with React development habits ([#fc1ac91](https://github.com/kwooshung/React-Icons/commit/fc1ac91d24c4aee0355a3fa992ab2f073683d65e))

@@ -1,3 +1,7 @@
+## 🎉 2.0.1 `2024-02-20`
+### 🐛 Fix
+- 解释文档，中文具有普遍文化，转化为英语 ([#adc1f33](https://github.com/kwooshung/React-Icons/commit/adc1f33762cf1505626c66145f25e4e009112936))
+
 ## 🎉 2.0.0 `2024-02-20`
 ### ✨ Feature
 - 新写作更简单，API更简单，并且与React开发习惯更一致 ([#fc1ac91](https://github.com/kwooshung/React-Icons/commit/fc1ac91d24c4aee0355a3fa992ab2f073683d65e))
