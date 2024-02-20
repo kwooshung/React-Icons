@@ -2,22 +2,22 @@
 
 # @kwooshung/react-icons
 
-It is more convenient to use svg as React icon, mainly for your own convenience. It may not be suitable for you.
+It is more convenient to use svg as React icon, which has strong operability and high degree of freedom.
 
-[![GitHub License](https://img.shields.io/github/license/kwooshung/react-icons?labelColor=272e3b&color=165dff)](LICENSE)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/react-icons?labelColor=272e3b&color=00b42A&logo=github)
-![GitHub last commit](https://img.shields.io/github/last-commit/kwooshung/react-icons?labelColor=272e3b&color=165dff)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kwooshung/react-icons?labelColor=272e3b&color=165dff)
-![GitHub top language](https://img.shields.io/github/languages/top/kwooshung/react-icons?labelColor=272e3b&color=165dff)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/react-icons?labelColor=272e3b&color=165dff)
-![GitHub issues](https://img.shields.io/github/issues/kwooshung/react-icons?labelColor=272e3b&color=165dff)
-![Github Stars](https://img.shields.io/github/stars/kwooshung/react-icons?labelColor=272e3b&color=165dff)
+[![GitHub License](https://img.shields.io/github/license/kwooshung/React-Icons?labelColor=272e3b&color=165dff)](LICENSE)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/React-Icons?labelColor=272e3b&color=00b42A&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
+![GitHub top language](https://img.shields.io/github/languages/top/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
+![GitHub issues](https://img.shields.io/github/issues/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
+![Github Stars](https://img.shields.io/github/stars/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
 [![NPM Version](https://img.shields.io/npm/v/@kwooshung/react-icons?labelColor=272e3b&color=165dff)](https://www.npmjs.com/package/@kwooshung/react-icons)
 [![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/react-icons?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/react-icons)
-[![Github CI/CD](https://github.com/kwooshung/react-icons/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/react-icons/actions/)
-[![codecov](https://codecov.io/gh/kwooshung/react-icons/graph/badge.svg?token=cDGeXFY45W)](https://codecov.io/gh/kwooshung/react-icons)
-[![Maintainability](https://api.codeclimate.com/v1/badges/ec6965201f46be493f0f/maintainability)](https://codeclimate.com/github/kwooshung/react-icons/maintainability)
-[![Gitee Repo](https://img.shields.io/badge/Gitee-react--icons-165dff?logo=gitee)](https://gitee.com/kwooshung/react-icons/)
+[![Github CI/CD](https://github.com/kwooshung/React-Icons/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/React-Icons/actions/)
+[![codecov](https://codecov.io/gh/kwooshung/React-Icons/graph/badge.svg?token=cDGeXFY45W)](https://codecov.io/gh/kwooshung/React-Icons)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ec6965201f46be493f0f/maintainability)](https://codeclimate.com/github/kwooshung/React-Icons/maintainability)
+[![Gitee Repo](https://img.shields.io/badge/Gitee-React--Icons-165dff?logo=gitee)](https://gitee.com/kwooshung/React-Icons/)
 
 <p align="center">
     <a href="README.md" style="font-weight:700;color:#165dff;text-decoration:underline;">English</a> | 
@@ -138,8 +138,8 @@ For the following types, please refer to: [interfaces.d.ts](src/icons/interfaces
 
 | Parameters | Description | Type          | Default value    | Required |
 | ---------- | ----------- | ------------- | ---------------- | -------- |
-| icons      | 图标组      | `JSX.Element` | `React.Fragment` | 是       |
-| prefix     | Icon prefix | `string`      | `''`             | No       |
+| icons      | Icon Groups | `JSX.Element` | `React.Fragment` | Yes      |
+| prefix     | Icon Prefix | `string`      | `''`             | No       |
 
 ### KsIcon
 
@@ -156,7 +156,7 @@ For the following types, please refer to: [interfaces.d.ts](src/icons/interfaces
 
 #### Events
 
-| Parameters    | Description | Type                                     |
-| ------------- | ----------- | ---------------------------------------- |
-| onClick       | 点击事件    | `(e: MouseEvent<SVGSVGElement>) => void` |
-| onDoubleClick | 双击事件    | `(e: MouseEvent<SVGSVGElement>) => void` |
+| Parameters    | Description        | Type                                     |
+| ------------- | ------------------ | ---------------------------------------- |
+| onClick       | Click event        | `(e: MouseEvent<SVGSVGElement>) => void` |
+| onDoubleClick | Double click event | `(e: MouseEvent<SVGSVGElement>) => void` |

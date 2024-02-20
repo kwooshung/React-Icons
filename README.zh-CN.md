@@ -2,22 +2,22 @@
 
 # @kwooshung/react-icons
 
-更方便的使用svg作为React图标，主要方便自己使用，它可能不适合你。
+更方便的使用svg作为React图标，可操作性强，自由度高。
 
-[![GitHub License](https://img.shields.io/github/license/kwooshung/react-icons?labelColor=272e3b&color=165dff)](LICENSE)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/react-icons?labelColor=272e3b&color=00b42A&logo=github)
-![GitHub last commit](https://img.shields.io/github/last-commit/kwooshung/react-icons?labelColor=272e3b&color=165dff)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kwooshung/react-icons?labelColor=272e3b&color=165dff)
-![GitHub top language](https://img.shields.io/github/languages/top/kwooshung/react-icons?labelColor=272e3b&color=165dff)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/react-icons?labelColor=272e3b&color=165dff)
-![GitHub issues](https://img.shields.io/github/issues/kwooshung/react-icons?labelColor=272e3b&color=165dff)
-![Github Stars](https://img.shields.io/github/stars/kwooshung/react-icons?labelColor=272e3b&color=165dff)
+[![GitHub License](https://img.shields.io/github/license/kwooshung/React-Icons?labelColor=272e3b&color=165dff)](LICENSE)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/React-Icons?labelColor=272e3b&color=00b42A&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
+![GitHub top language](https://img.shields.io/github/languages/top/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
+![GitHub issues](https://img.shields.io/github/issues/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
+![Github Stars](https://img.shields.io/github/stars/kwooshung/React-Icons?labelColor=272e3b&color=165dff)
 [![NPM Version](https://img.shields.io/npm/v/@kwooshung/react-icons?labelColor=272e3b&color=165dff)](https://www.npmjs.com/package/@kwooshung/react-icons)
 [![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/react-icons?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/react-icons)
-[![Github CI/CD](https://github.com/kwooshung/react-icons/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/react-icons/actions/)
-[![codecov](https://codecov.io/gh/kwooshung/react-icons/graph/badge.svg?token=cDGeXFY45W)](https://codecov.io/gh/kwooshung/react-icons)
-[![Maintainability](https://api.codeclimate.com/v1/badges/ec6965201f46be493f0f/maintainability)](https://codeclimate.com/github/kwooshung/react-icons/maintainability)
-[![Gitee Repo](https://img.shields.io/badge/Gitee-react--progressbar--wrapper-165dff?logo=gitee)](https://gitee.com/kwooshung/react-icons/)
+[![Github CI/CD](https://github.com/kwooshung/React-Icons/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/React-Icons/actions/)
+[![codecov](https://codecov.io/gh/kwooshung/React-Icons/graph/badge.svg?token=cDGeXFY45W)](https://codecov.io/gh/kwooshung/React-Icons)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ec6965201f46be493f0f/maintainability)](https://codeclimate.com/github/kwooshung/React-Icons/maintainability)
+[![Gitee Repo](https://img.shields.io/badge/Gitee-React--Icons-165dff?logo=gitee)](https://gitee.com/kwooshung/React-Icons/)
 
 <p align="center">
     <a href="README.md">English</a> | 
