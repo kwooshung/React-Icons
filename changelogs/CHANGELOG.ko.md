@@ -1,3 +1,7 @@
+## 🎉 2.0.2 `2024-02-21`
+### 🐛 Fix
+- 유지 관리 링크 주소 및 배지를 수정하십시오 ([#d9fdd29](https://github.com/kwooshung/React-Icons/commit/d9fdd29a6885edeb987de33dc4ab22fd304d8aa6))
+
 ## 🎉 2.0.1 `2024-02-20`
 ### 🐛 Fix
 - 보편적 문화를 가진 중국어, 영어로 번역 된 문서 설명 ([#adc1f33](https://github.com/kwooshung/React-Icons/commit/adc1f33762cf1505626c66145f25e4e009112936))

@@ -1,3 +1,7 @@
+## 🎉 2.0.2 `2024-02-21`
+### 🐛 Fix
+- Modify the MainTainability link address and badge ([#d9fdd29](https://github.com/kwooshung/React-Icons/commit/d9fdd29a6885edeb987de33dc4ab22fd304d8aa6))
+
 ## 🎉 2.0.1 `2024-02-20`
 ### 🐛 Fix
 - Explain the documentation, Chinese with universal culture, translate into English ([#adc1f33](https://github.com/kwooshung/React-Icons/commit/adc1f33762cf1505626c66145f25e4e009112936))
