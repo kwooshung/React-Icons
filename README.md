@@ -16,7 +16,7 @@ It is more convenient to use svg as React icon, which has strong operability and
 [![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/react-icons?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/react-icons)
 [![Github CI/CD](https://github.com/kwooshung/React-Icons/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/React-Icons/actions/)
 [![codecov](https://codecov.io/gh/kwooshung/React-Icons/graph/badge.svg?token=cDGeXFY45W)](https://codecov.io/gh/kwooshung/React-Icons)
-[![Maintainability](https://api.codeclimate.com/v1/badges/ec6965201f46be493f0f/maintainability)](https://codeclimate.com/github/kwooshung/React-Icons/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/40b8bb79cf908037ee92/maintainability)](https://codeclimate.com/github/kwooshung/React-Icons/maintainability)
 [![Gitee Repo](https://img.shields.io/badge/Gitee-React--Icons-165dff?logo=gitee)](https://gitee.com/kwooshung/React-Icons/)
 
 <p align="center">
