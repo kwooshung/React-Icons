@@ -27,13 +27,13 @@
     "Reacticons"
   ],
   "author": "kwooshung",
-  "homepage": "https://github.com/kwooshung/react-icons",
+  "homepage": "https://github.com/kwooshung/React-Icons",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kwooshung/react-icons.git"
+    "url": "https://github.com/kwooshung/React-Icons.git"
   },
   "bugs": {
-    "url": "https://github.com/kwooshung/react-icons/issues"
+    "url": "https://github.com/kwooshung/React-Icons/issues"
   },
   "type": "module",
   "main": "dist/index.cmd.js",
