@@ -1,37 +1,9 @@
-import { ReactNode, SVGProps } from 'react';
-
-/**
- * @zh 图标列表
- * @en Icon list
- */
-export interface IIconList {
-  /**
-   * @zh ID 样式
-   * @en ID style
-   */
-  id?: string;
-  /**
-   * @zh 类 样式
-   * @en Class style
-   */
-  className?: string;
-  /**
-   * @zh 视图框
-   * @en View box
-   */
-  viewBox: string;
-  /**
-   * @zh 图标列表
-   * @en Icon list
-   */
-  icons: ReactNode[];
-}
-
+import { ReactNode } from 'react';
 /**
  * @zh 图标上下文
  * @en Icon context
  */
-export interface IIconsContext {
+export interface IconsContext {
   /**
    * @zh 前缀，默认空
    * @en Prefix, default empty
@@ -41,19 +13,19 @@ export interface IIconsContext {
    * @zh 图标列表组件
    * @en Icon list component
    */
-  icongroup: IIconList[];
+  icons: any;
 }
 
 /**
  * @zh 图标提供者Props属性
  * @en Icon provider props
  */
-export interface IIconProviderProps {
+export interface IconProviderProps {
   /**
    * @zh 图标列表组件
    * @en Icon list component
    */
-  icongroup: IIconList[];
+  icons: JSX.Element;
   /**
    * @zh 前缀，默认空
    * @en Prefix, default empty
@@ -67,56 +39,10 @@ export interface IIconProviderProps {
 }
 
 /**
- * @zh 自定义SVGPath属性
- * @en Custom SVGPath props
- */
-interface ICustomSVGPathProps {
-  type?: 'fill' | 'line';
-}
-
-/**
- * @zh 扩展SVGPath属性
- * @en Extended SVGPath props
- */
-export type TExtendedSVGPathProps = SVGProps<SVGPathElement> & ICustomSVGPathProps;
-
-/**
- * @zh 图标Props属性
- * @en Icon props
- */
-export interface ISymbol {
-  /**
-   * @zh 名称
-   * @en Name
-   */
-  name: string;
-  /**
-   * @zh viewBox
-   * @en viewBox
-   */
-  viewBox?: string;
-  /**
-   * @zh 类型，默认填充
-   * @en type, default fill
-   */
-  type?: 'fill' | 'line';
-  /**
-   * @zh 类 样式
-   * @en Class style
-   */
-  className?: string;
-  /**
-   * @zh path 属性
-   * @en path attribute
-   */
-  path: TExtendedSVGPathProps | TExtendedSVGPathProps[];
-}
-
-/**
  * @zh 组件Props属性
  * @en Component props
  */
-export interface IIconsProps {
+export interface IconProps {
   /**
    * @zh 名称
    * @en Name
