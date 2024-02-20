@@ -1,3 +1,7 @@
+## 🎉 2.0.0 `2024-02-20`
+### ✨ Feature
+- The new writing is simpler, the API is simpler, and it is more in line with React development habits ([#fc1ac91](https://github.com/kwooshung/React-Icons/commit/fc1ac91d24c4aee0355a3fa992ab2f073683d65e))
+
 ## 🎉 1.0.12 `2024-02-18`
 ### 🐛 Fix
 - Update the error link in the log ([#eb5f7c1](https://github.com/kwooshung/react-icons/commit/eb5f7c10762a70ca01054edcd297b28672443e31))

@@ -1,13 +1,13 @@
 import { createContext } from 'react';
-import { IIconsContext } from './interfaces';
+import { IconsContext } from './interfaces';
 
 /**
  * @zh 图标上下文
  * @en Icon context
  */
-const IconsContext = createContext<IIconsContext>({
+const IconsContext = createContext<IconsContext>({
   prefix: '',
-  icongroup: []
+  icons: null
 });
 
 export default IconsContext;

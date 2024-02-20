@@ -1,3 +1,7 @@
+## 🎉 2.0.0 `2024-02-20`
+### ✨ Feature
+- 새로운 글은 더 간단하고 API는 더 간단하며 React 개발 습관과 더 일치합니다. ([#fc1ac91](https://github.com/kwooshung/React-Icons/commit/fc1ac91d24c4aee0355a3fa992ab2f073683d65e))
+
 ## 🎉 1.0.12 `2024-02-18`
 ### 🐛 Fix
 - 로그에서 오류 링크를 업데이트하십시오 ([#eb5f7c1](https://github.com/kwooshung/react-icons/commit/eb5f7c10762a70ca01054edcd297b28672443e31))

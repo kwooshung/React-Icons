@@ -1,6 +1,6 @@
 import styles from './icons.module.less';
 import { FC, ReactNode, useEffect, useState, MouseEvent, useContext, CSSProperties, memo } from 'react';
-import { IIconsProps } from './interfaces';
+import { IconProps } from './interfaces';
 import IconsContext from './IconsContext';
 
 /**
@@ -42,10 +42,10 @@ const getStyle = (size: number = 0, rotate?: number, spin?: number | boolean): C
 /**
  * @zh 组件：图标
  * @en Component: Icon
- * @param {IIconsProps} props 属性
+ * @param {IconProps} props 属性
  * @return {ReactNode} React节点
  */
-const Icon: FC<IIconsProps> = ({ name, id = undefined, className = '', size = 0, rotate = 0, spin = false, onClick, onDoubleClick }: IIconsProps): ReactNode => {
+const Icon: FC<IconProps> = ({ name, id = undefined, className = '', size = 0, rotate = 0, spin = false, onClick, onDoubleClick }: IconProps): ReactNode => {
   /**
    * @zh 图标上下文
    * @en Icon context
