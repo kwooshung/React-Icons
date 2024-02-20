@@ -1,3 +1,7 @@
+## 🎉 2.0.5 `2024-02-21`
+### 🐛 Fix
+- 修復包裝的主頁地址 ([#9245fc7](https://github.com/kwooshung/React-Icons/commit/9245fc7850d812f0e569d0e75a6062eaf6db9561))
+
 ## 🎉 2.0.3 `2024-02-21`
 ### 🐛 Fix
 - 更新依賴 ([#9bbba0d](https://github.com/kwooshung/React-Icons/commit/9bbba0d2e2c10c2f459dc8c29ac976c4462796ac))
