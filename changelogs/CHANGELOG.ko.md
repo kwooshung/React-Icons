@@ -1,3 +1,7 @@
+## 🎉 2.0.6 `2024-02-22`
+### 🐛 Fix
+- 새 단위 테스트 파일을 추가하십시오 ([#292b7e0](https://github.com/kwooshung/React-Icons/commit/292b7e065265e78c406b777fcd8872eea9f77ee3))
+
 ## 🎉 2.0.5 `2024-02-21`
 ### 🐛 Fix
 - 패키지의 메인 페이지 주소를 수정하십시오 ([#9245fc7](https://github.com/kwooshung/React-Icons/commit/9245fc7850d812f0e569d0e75a6062eaf6db9561))

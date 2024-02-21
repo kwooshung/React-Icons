@@ -1,6 +1,6 @@
 {
   "name": "@kwooshung/react-icons",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "title": "react-icons",
   "description": "It is more convenient to use svg as React icon, which has strong operability and high degree of freedom.",
   "private": false,
@@ -107,8 +107,8 @@
     "ts-loader": "^9.5.1",
     "tsup": "^8.0.2",
     "typescript": "^5.3.3",
-    "vite": "^5.1.3",
-    "vite-plugin-dts": "^3.7.2",
+    "vite": "^5.1.4",
+    "vite-plugin-dts": "^3.7.3",
     "vite-plugin-imp": "^2.4.0",
     "vitest": "^1.3.1"
   },

@@ -1,3 +1,7 @@
+## 🎉 2.0.6 `2024-02-22`
+### 🐛 Fix
+- 添加新的单元测试文件 ([#292b7e0](https://github.com/kwooshung/React-Icons/commit/292b7e065265e78c406b777fcd8872eea9f77ee3))
+
 ## 🎉 2.0.5 `2024-02-21`
 ### 🐛 Fix
 - 修复包装的主页地址 ([#9245fc7](https://github.com/kwooshung/React-Icons/commit/9245fc7850d812f0e569d0e75a6062eaf6db9561))
