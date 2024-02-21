@@ -2,7 +2,7 @@
 
 # @kwooshung/react-icons
 
-更方便的使用svg作为React图标，可操作性强，自由度高。
+## 更方便的使用 `svg` 作为 `React` 图标，可操作性强，自由度高。
 
 [![GitHub License](https://img.shields.io/github/license/kwooshung/React-Icons?labelColor=272e3b&color=165dff)](LICENSE)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/React-Icons?labelColor=272e3b&color=00b42A&logo=github)

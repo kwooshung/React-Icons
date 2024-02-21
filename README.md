@@ -2,7 +2,7 @@
 
 # @kwooshung/react-icons
 
-It is more convenient to use svg as React icon, which has strong operability and high degree of freedom.
+## It is more convenient to use `svg` as `React` icon, which has strong operability and high degree of freedom.
 
 [![GitHub License](https://img.shields.io/github/license/kwooshung/React-Icons?labelColor=272e3b&color=165dff)](LICENSE)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/React-Icons?labelColor=272e3b&color=00b42A&logo=github)
