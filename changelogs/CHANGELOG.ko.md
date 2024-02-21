@@ -1,3 +1,7 @@
+## 🎉 2.1.0 `2024-02-22`
+### 🐛 Fix
+- 구성 요소 이름을보다 일반적인 이름으로 변경하십시오 ([#d0d122b](https://github.com/kwooshung/React-Icons/commit/d0d122bff03454e18ee0772376f9eb26f8ac3f77))
+
 ## 🎉 2.0.8 `2024-02-22`
 ### 🐛 Fix
 - 간단한 소개는 명확합니다 ([#70d551b](https://github.com/kwooshung/React-Icons/commit/70d551be6afbae782a6fc7eae3b136e83c6729d3))

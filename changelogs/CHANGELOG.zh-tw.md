@@ -1,3 +1,7 @@
+## 🎉 2.1.0 `2024-02-22`
+### 🐛 Fix
+- 將組件命名更改為更通用的名稱 ([#d0d122b](https://github.com/kwooshung/React-Icons/commit/d0d122bff03454e18ee0772376f9eb26f8ac3f77))
+
 ## 🎉 2.0.8 `2024-02-22`
 ### 🐛 Fix
 - 簡要介紹更清晰 ([#70d551b](https://github.com/kwooshung/React-Icons/commit/70d551be6afbae782a6fc7eae3b136e83c6729d3))
