@@ -1,3 +1,7 @@
+## 🎉 2.0.7 `2024-02-22`
+### 🐛 Fix
+- The type definition and repair of the new test ([#cab9384](https://github.com/kwooshung/React-Icons/commit/cab9384deae81338cabbec3ecbeef3e19633e33d))
+
 ## 🎉 2.0.6 `2024-02-22`
 ### 🐛 Fix
 - Add new unit test files ([#292b7e0](https://github.com/kwooshung/React-Icons/commit/292b7e065265e78c406b777fcd8872eea9f77ee3))

@@ -7,7 +7,7 @@ describe('IconsContext 测试', () => {
 
   it('IconsContext 默认值符合预期', () => {
     // 检查 IconsContext 是否具有预期的默认值
-    const contextDefaultValue = IconsContext._currentValue;
+    const contextDefaultValue = (IconsContext as any)._currentValue;
     expect(contextDefaultValue).toEqual({ prefix: '', icons: null });
   });
 });
