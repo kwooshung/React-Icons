@@ -1,3 +1,7 @@
+## 🎉 2.0.7 `2024-02-22`
+### 🐛 Fix
+- 新测试的类型定义和维修 ([#cab9384](https://github.com/kwooshung/React-Icons/commit/cab9384deae81338cabbec3ecbeef3e19633e33d))
+
 ## 🎉 2.0.6 `2024-02-22`
 ### 🐛 Fix
 - 添加新的单元测试文件 ([#292b7e0](https://github.com/kwooshung/React-Icons/commit/292b7e065265e78c406b777fcd8872eea9f77ee3))
