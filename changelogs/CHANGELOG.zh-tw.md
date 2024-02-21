@@ -1,3 +1,7 @@
+## 🎉 2.0.8 `2024-02-22`
+### 🐛 Fix
+- 簡要介紹更清晰 ([#70d551b](https://github.com/kwooshung/React-Icons/commit/70d551be6afbae782a6fc7eae3b136e83c6729d3))
+
 ## 🎉 2.0.7 `2024-02-22`
 ### 🐛 Fix
 - 新測試的類型定義和維修 ([#cab9384](https://github.com/kwooshung/React-Icons/commit/cab9384deae81338cabbec3ecbeef3e19633e33d))
