@@ -101,7 +101,7 @@ import '@kwooshung/react-icons/dist/index.css';
 
 ```tsx
 import '@kwooshung/react-icons/dist/index.css';
-import { KsIconsConfig, KsIconSymbol, KsIcon } from '@kwooshung/react-icons';
+import { IconProvider, Icon } from '@kwooshung/react-icons';
 
 const icons = (
   <>
@@ -116,10 +116,10 @@ const icons = (
 
 const Demo = () => {
   return (
-    <KsIconsConfig icons={icons} prefix='demo'>
-      <KsIcons name='thumb' spin={100} />
-      <KsIcons name='earth' />
-    </KsIconsConfig>
+    <IconProvider icons={icons} prefix='demo'>
+      <Icon name='thumb' spin={100} />
+      <Icon name='earth' />
+    </IconProvider>
   );
 };
 
@@ -132,7 +132,7 @@ export default Demo;
 
 以下用到的类型，请参考：[interfaces.d.ts](src/icons/interfaces.d.ts)
 
-### KsIconsConfig
+### IconProvider
 
 ### Props
 
