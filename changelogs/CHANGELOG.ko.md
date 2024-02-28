@@ -1,3 +1,7 @@
+## 🎉 2.1.3 `2024-02-28`
+### 🐛 Fix
+- 기본 아이콘 그룹, SVG 패키지 없음 ([#d97a5d4](https://github.com/kwooshung/React-Icons/commit/d97a5d422cb96ad403ed741b7adad21099b36d59))
+
 ## 🎉 2.1.2 `2024-02-28`
 ### 🐛 Fix
 - 모든 요소 뒤에 SVG 목록을 넣으십시오. 아이콘 구성 요소 기본 클래스 이름을 비 인제로 설정하십시오 ([#f79bace](https://github.com/kwooshung/React-Icons/commit/f79bacec9b7c506a08f2a41b4b938a500da424ad))

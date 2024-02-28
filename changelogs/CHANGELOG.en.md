@@ -1,3 +1,7 @@
+## 🎉 2.1.3 `2024-02-28`
+### 🐛 Fix
+- The default icon group, no SVG package ([#d97a5d4](https://github.com/kwooshung/React-Icons/commit/d97a5d422cb96ad403ed741b7adad21099b36d59))
+
 ## 🎉 2.1.2 `2024-02-28`
 ### 🐛 Fix
 - Put the SVG list after all elements; set the Icon component default className to non -empty ([#f79bace](https://github.com/kwooshung/React-Icons/commit/f79bacec9b7c506a08f2a41b4b938a500da424ad))
