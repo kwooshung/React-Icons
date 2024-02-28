@@ -56,7 +56,7 @@ const Icon: FC<IconProps> = ({ name, id = undefined, className = '', size = 0, r
    * @zh 样式类名
    * @en Style class name
    */
-  const [getCls, setCls] = useState<string>('');
+  const [getCls, setCls] = useState<string>(getClassName(className));
 
   /**
    * @zh 样式

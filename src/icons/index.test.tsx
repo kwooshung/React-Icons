@@ -9,7 +9,7 @@ describe('Icon 组件', () => {
         <Icon name='test-icon' />
       </IconProvider>
     );
-    const svg = container.querySelector('svg:last-child') as SVGSVGElement;
+    const svg = container.querySelector('svg:first-child') as SVGSVGElement;
     expect(svg).toBeTruthy();
     const useElement = svg.querySelector('use:first-child');
     expect(useElement).toBeTruthy();
@@ -24,7 +24,7 @@ describe('Icon 组件', () => {
       </IconProvider>
     );
 
-    const svg = container.querySelector('svg:last-child') as SVGSVGElement;
+    const svg = container.querySelector('svg:first-child') as SVGSVGElement;
     expect(svg.id).toBe('test-id');
     expect(svg.classList.contains('test-class')).toBeTruthy();
   });
@@ -36,7 +36,7 @@ describe('Icon 组件', () => {
       </IconProvider>
     );
 
-    const svg = container.querySelector('svg:last-child') as SVGSVGElement;
+    const svg = container.querySelector('svg:first-child') as SVGSVGElement;
     expect(svg.style.fontSize).toBe('24px');
     expect(svg.style.transform).toBe('rotate(45deg)');
   });
@@ -48,7 +48,7 @@ describe('Icon 组件', () => {
       </IconProvider>
     );
 
-    const svg = container.querySelector('svg:last-child') as SVGSVGElement;
+    const svg = container.querySelector('svg:first-child') as SVGSVGElement;
     expect(svg.style.animation).toContain('ks-icon-spin');
   });
 
@@ -59,7 +59,7 @@ describe('Icon 组件', () => {
       </IconProvider>
     );
 
-    const svg = container.querySelector('svg:last-child') as SVGSVGElement;
+    const svg = container.querySelector('svg:first-child') as SVGSVGElement;
     expect(svg.style.animation).toContain('ks-icon-spin');
   });
 
@@ -71,7 +71,7 @@ describe('Icon 组件', () => {
       </IconProvider>
     );
 
-    const svg = container.querySelector('svg:last-child') as SVGSVGElement;
+    const svg = container.querySelector('svg:first-child') as SVGSVGElement;
     fireEvent.click(svg);
     expect(handleClick).toHaveBeenCalled();
   });
@@ -84,7 +84,7 @@ describe('Icon 组件', () => {
       </IconProvider>
     );
 
-    const svg = container.querySelector('svg:last-child') as SVGSVGElement;
+    const svg = container.querySelector('svg:first-child') as SVGSVGElement;
     fireEvent.doubleClick(svg);
     expect(handleDoubleClick).toHaveBeenCalled();
   });

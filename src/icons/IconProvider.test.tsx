@@ -15,7 +15,7 @@ describe('IconProvider 组件', () => {
       </IconProvider>
     );
 
-    const svg = container.querySelector('svg:first-child') as HTMLElement;
+    const svg = container.querySelector('svg:last-child') as HTMLElement;
     expect(svg.tagName === 'svg').toBeTruthy();
     expect(svg.querySelector('symbol')?.id === 'ks-icon-abc-1').toBeTruthy();
   });
@@ -33,7 +33,7 @@ describe('IconProvider 组件', () => {
         <div>子元素</div>
       </IconProvider>
     );
-    const svg = container.querySelector('svg:first-child') as HTMLElement;
+    const svg = container.querySelector('svg:last-child') as HTMLElement;
     expect(svg.tagName === 'svg').toBeTruthy();
     expect(svg.querySelector('symbol')?.id === 'ks-icon-test-prefix-abc-1').toBeTruthy();
   });
@@ -50,7 +50,7 @@ describe('IconProvider 组件', () => {
         <div>子元素</div>
       </IconProvider>
     );
-    const svg = container.querySelector('svg:first-child') as HTMLElement;
+    const svg = container.querySelector('svg:last-child') as HTMLElement;
     expect(svg.querySelector('symbol')?.id === 'ks-icon-0').toBeTruthy();
   });
 
@@ -60,7 +60,7 @@ describe('IconProvider 组件', () => {
         <div>子元素</div>
       </IconProvider>
     );
-    const svg = container.querySelector('svg:first-child') as HTMLElement;
+    const svg = container.querySelector('svg:last-child') as HTMLElement;
     expect(svg.tagName === 'svg').toBeTruthy();
     expect(svg.querySelector('symbol') === null).toBeTruthy();
   });
@@ -78,7 +78,7 @@ describe('IconProvider 组件', () => {
         <div>子元素</div>
       </IconProvider>
     );
-    const svg = container.querySelector('svg:first-child') as HTMLElement;
+    const svg = container.querySelector('svg:last-child') as HTMLElement;
     expect(svg.tagName === 'svg').toBeTruthy();
     expect(svg.querySelector('#abc')?.id === 'abc').toBeTruthy();
     expect(svg.querySelector('symbol')?.id === 'ks-icon-test-prefix-abc-1').toBeTruthy();
