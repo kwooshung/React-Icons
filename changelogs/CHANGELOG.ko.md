@@ -1,3 +1,7 @@
+## 🎉 2.1.2 `2024-02-28`
+### 🐛 Fix
+- 모든 요소 뒤에 SVG 목록을 넣으십시오. 아이콘 구성 요소 기본 클래스 이름을 비 인제로 설정하십시오 ([#f79bace](https://github.com/kwooshung/React-Icons/commit/f79bacec9b7c506a08f2a41b4b938a500da424ad))
+
 ## 🎉 2.1.1 `2024-02-28`
 ### 🐛 Fix
 - SSR의 수리 구성 요소의 성능으로 인해 페이지가 비워지게됩니다. ([#ecfa406](https://github.com/kwooshung/React-Icons/commit/ecfa406fbbe2515e46c08dad090fb527fcf9d170))

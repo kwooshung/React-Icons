@@ -1,3 +1,7 @@
+## 🎉 2.1.2 `2024-02-28`
+### 🐛 Fix
+- Put the SVG list after all elements; set the Icon component default className to non -empty ([#f79bace](https://github.com/kwooshung/React-Icons/commit/f79bacec9b7c506a08f2a41b4b938a500da424ad))
+
 ## 🎉 2.1.1 `2024-02-28`
 ### 🐛 Fix
 - The performance of the repair component in SSR, which causes the page to blank blank ([#ecfa406](https://github.com/kwooshung/React-Icons/commit/ecfa406fbbe2515e46c08dad090fb527fcf9d170))
