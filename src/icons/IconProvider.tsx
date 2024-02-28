@@ -27,8 +27,8 @@ const IconProvider: FC<IconProviderProps> = ({ icons, prefix = '', children }: I
 
   return (
     <IconsContent.Provider value={{ prefix, icons: modifiedIcon }}>
-      {modifiedIcon}
       {children}
+      {modifiedIcon}
     </IconsContent.Provider>
   );
 };
