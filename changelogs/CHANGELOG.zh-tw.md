@@ -1,3 +1,7 @@
+## 🎉 2.1.2 `2024-02-28`
+### 🐛 Fix
+- 將SVG列表放在所有元素之後；將圖標組件默認className設置為非emptim ([#f79bace](https://github.com/kwooshung/React-Icons/commit/f79bacec9b7c506a08f2a41b4b938a500da424ad))
+
 ## 🎉 2.1.1 `2024-02-28`
 ### 🐛 Fix
 - SSR中維修組件的性能，這會導致頁面空白 ([#ecfa406](https://github.com/kwooshung/React-Icons/commit/ecfa406fbbe2515e46c08dad090fb527fcf9d170))
