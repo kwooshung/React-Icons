@@ -10,7 +10,7 @@ import { IconProviderProps } from './interfaces';
  * @return {ReactNode} React节点
  */
 const IconProvider: FC<IconProviderProps> = ({ icons, prefix = '', children }: IconProviderProps): ReactNode => {
-  const [modifiedIcon, setModifiedIcon] = useState<JSX.Element>(icons);
+  const [modifiedIcon, setModifiedIcon] = useState<JSX.Element>(<svg className={styles['ks-icons']}>{icons}</svg>);
 
   useEffect(() => {
     const newIcons = Children.map(icons.props.children, (child: JSX.Element, inx: number) => {

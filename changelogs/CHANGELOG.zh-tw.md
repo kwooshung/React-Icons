@@ -1,3 +1,7 @@
+## 🎉 2.1.3 `2024-02-28`
+### 🐛 Fix
+- 默認圖標組，沒有SVG軟件包 ([#d97a5d4](https://github.com/kwooshung/React-Icons/commit/d97a5d422cb96ad403ed741b7adad21099b36d59))
+
 ## 🎉 2.1.2 `2024-02-28`
 ### 🐛 Fix
 - 將SVG列表放在所有元素之後；將圖標組件默認className設置為非emptim ([#f79bace](https://github.com/kwooshung/React-Icons/commit/f79bacec9b7c506a08f2a41b4b938a500da424ad))
