@@ -10,7 +10,7 @@ import { IconProviderProps } from './interfaces';
  * @return {ReactNode} React节点
  */
 const IconProvider: FC<IconProviderProps> = ({ icons, prefix = '', children }: IconProviderProps): ReactNode => {
-  const [modifiedIcon, setModifiedIcon] = useState<JSX.Element>(<></>);
+  const [modifiedIcon, setModifiedIcon] = useState<JSX.Element>(icons);
 
   useEffect(() => {
     const newIcons = Children.map(icons.props.children, (child: JSX.Element, inx: number) => {

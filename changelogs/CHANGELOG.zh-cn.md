@@ -1,3 +1,7 @@
+## 🎉 2.1.1 `2024-02-28`
+### 🐛 Fix
+- SSR中维修组件的性能，这会导致页面空白 ([#ecfa406](https://github.com/kwooshung/React-Icons/commit/ecfa406fbbe2515e46c08dad090fb527fcf9d170))
+
 ## 🎉 2.1.0 `2024-02-22`
 ### 🐛 Fix
 - 将组件命名更改为更通用的名称 ([#d0d122b](https://github.com/kwooshung/React-Icons/commit/d0d122bff03454e18ee0772376f9eb26f8ac3f77))
