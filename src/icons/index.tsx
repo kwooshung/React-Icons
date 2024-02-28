@@ -62,13 +62,13 @@ const Icon: FC<IconProps> = ({ name, id = undefined, className = '', size = 0, r
    * @zh 样式
    * @en Style
    */
-  const [getStyles, setStyles] = useState<CSSProperties>({});
+  const [getStyles, setStyles] = useState<CSSProperties>(getStyle(size, rotate, spin));
 
   /**
    * @zh 设置前缀
    * @en Set prefix
    */
-  const [getPrefix, setPrefix] = useState<string>('');
+  const [getPrefix, setPrefix] = useState<string>(name);
 
   useEffect(() => {
     setCls(getClassName(className));
