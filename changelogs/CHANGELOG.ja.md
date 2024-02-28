@@ -1,3 +1,7 @@
+## 🎉 2.1.1 `2024-02-28`
+### 🐛 Fix
+- SSRでの修理コンポーネントのパフォーマンス。これにより、ページが空白になります ([#ecfa406](https://github.com/kwooshung/React-Icons/commit/ecfa406fbbe2515e46c08dad090fb527fcf9d170))
+
 ## 🎉 2.1.0 `2024-02-22`
 ### 🐛 Fix
 - コンポーネントの命名をより一般的な名前に変更します ([#d0d122b](https://github.com/kwooshung/React-Icons/commit/d0d122bff03454e18ee0772376f9eb26f8ac3f77))
