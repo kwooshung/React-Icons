@@ -1,3 +1,7 @@
+## 🎉 2.1.5 `2024-09-01`
+### 🐛 Fix
+- 색상을 파일로 변경하십시오 ([#1cb3f11](https://github.com/kwooshung/React-Icons/commit/1cb3f1133849438462ee38a52e3229cac9cb89a4))
+
 ## 🎉 2.1.4 `2024-09-01`
 ### 🐛 Fix
 - 수리 구성 요소 스타일 상속 문제 ([#91e9133](https://github.com/kwooshung/React-Icons/commit/91e913330ed030342105d353011c357378816974))
