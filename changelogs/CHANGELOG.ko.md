@@ -1,3 +1,7 @@
+## 🎉 2.1.4 `2024-09-01`
+### 🐛 Fix
+- 수리 구성 요소 스타일 상속 문제 ([#91e9133](https://github.com/kwooshung/React-Icons/commit/91e913330ed030342105d353011c357378816974))
+
 ## 🎉 2.1.3 `2024-02-28`
 ### 🐛 Fix
 - 기본 아이콘 그룹, SVG 패키지 없음 ([#d97a5d4](https://github.com/kwooshung/React-Icons/commit/d97a5d422cb96ad403ed741b7adad21099b36d59))
