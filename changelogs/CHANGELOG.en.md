@@ -1,3 +1,7 @@
+## 🎉 2.1.5 `2024-09-01`
+### 🐛 Fix
+- Change color to file ([#1cb3f11](https://github.com/kwooshung/React-Icons/commit/1cb3f1133849438462ee38a52e3229cac9cb89a4))
+
 ## 🎉 2.1.4 `2024-09-01`
 ### 🐛 Fix
 - Repair component style inheritance problem ([#91e9133](https://github.com/kwooshung/React-Icons/commit/91e913330ed030342105d353011c357378816974))
