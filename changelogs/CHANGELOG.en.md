@@ -1,3 +1,7 @@
+## 🎉 2.1.6 `2025-01-05`
+### 💩 Optimization
+- Excessive removal, guarantee consistency ([#65b6aa5](https://github.com/kwooshung/React-Icons/commit/65b6aa5e605a069f6699b874046e0e418c69aa09))
+
 ## 🎉 2.1.5 `2024-09-01`
 ### 🐛 Fix
 - Change color to file ([#1cb3f11](https://github.com/kwooshung/React-Icons/commit/1cb3f1133849438462ee38a52e3229cac9cb89a4))
