@@ -1,3 +1,7 @@
+## 🎉 2.1.7 `2025-01-06`
+### ✨ Feature
+- CSSに関連するすべてのスタイルとファイルを削除します ([#357f956](https://github.com/kwooshung/React-Icons/commit/357f95658ceac6b8255ba810b6719a86b61edb89))
+
 ## 🎉 2.1.6 `2025-01-05`
 ### 💩 Optimization
 - 過度の除去、一貫性を保証します ([#65b6aa5](https://github.com/kwooshung/React-Icons/commit/65b6aa5e605a069f6699b874046e0e418c69aa09))
