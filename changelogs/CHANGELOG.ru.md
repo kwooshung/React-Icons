@@ -1,3 +1,7 @@
+## 🎉 2.2.0 `2025-01-06`
+### 🐛 Fix
+- Оптимизированное тестирование и демонстрация ([#cafb3d2](https://github.com/kwooshung/React-Icons/commit/cafb3d2725c62607161336edd2e8ece4a69e64e3))
+
 ## 🎉 2.1.8 `2025-01-06`
 ### 🐛 Fix
 - Ремонтный тест ([#5a431f9](https://github.com/kwooshung/React-Icons/commit/5a431f97a59820ec738e6ccfad08a2116c3d3767))
