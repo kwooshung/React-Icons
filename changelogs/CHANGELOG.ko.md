@@ -1,3 +1,7 @@
+## 🎉 2.1.8 `2025-01-06`
+### 🐛 Fix
+- 수리 테스트 ([#5a431f9](https://github.com/kwooshung/React-Icons/commit/5a431f97a59820ec738e6ccfad08a2116c3d3767))
+
 ## 🎉 2.1.7 `2025-01-06`
 ### ✨ Feature
 - CSS와 관련된 모든 스타일과 파일을 제거하십시오 ([#357f956](https://github.com/kwooshung/React-Icons/commit/357f95658ceac6b8255ba810b6719a86b61edb89))
