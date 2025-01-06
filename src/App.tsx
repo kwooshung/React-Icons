@@ -16,7 +16,7 @@ function App() {
   return (
     <IconProvider icons={icons} prefix='demo'>
       <Icon name='thumb' />
-      <Icon name='earth' spin={100} />
+      <Icon name='earth' />
     </IconProvider>
   );
 }
