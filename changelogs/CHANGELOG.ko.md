@@ -1,3 +1,7 @@
+## 🎉 2.1.7 `2025-01-06`
+### ✨ Feature
+- CSS와 관련된 모든 스타일과 파일을 제거하십시오 ([#357f956](https://github.com/kwooshung/React-Icons/commit/357f95658ceac6b8255ba810b6719a86b61edb89))
+
 ## 🎉 2.1.6 `2025-01-05`
 ### 💩 Optimization
 - 과도한 제거, 일관성을 보장합니다 ([#65b6aa5](https://github.com/kwooshung/React-Icons/commit/65b6aa5e605a069f6699b874046e0e418c69aa09))

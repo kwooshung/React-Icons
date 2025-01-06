@@ -1,7 +1,12 @@
-import styles from './icons.module.less';
-import { Children, FC, ReactNode, cloneElement, isValidElement, useEffect, useState } from 'react';
+import { CSSProperties, Children, FC, ReactNode, cloneElement, isValidElement, useEffect, useState } from 'react';
 import IconsContent from './IconsContext';
 import { IconProviderProps } from './interfaces';
+
+const css: CSSProperties = {
+  display: 'none',
+  position: 'absolute',
+  transform: 'translate(-100%, -100%)'
+};
 
 /**
  * @zh 组件：图标提供者
@@ -10,7 +15,7 @@ import { IconProviderProps } from './interfaces';
  * @return {ReactNode} React节点
  */
 const IconProvider: FC<IconProviderProps> = ({ icons, prefix = '', children }: IconProviderProps): ReactNode => {
-  const [modifiedIcon, setModifiedIcon] = useState<JSX.Element>(<svg className={styles['ks-icons']}>{icons}</svg>);
+  const [modifiedIcon, setModifiedIcon] = useState<JSX.Element>(<svg style={css}>{icons}</svg>);
 
   useEffect(() => {
     const newIcons = Children.map(icons.props.children, (child: JSX.Element, inx: number) => {
@@ -22,7 +27,7 @@ const IconProvider: FC<IconProviderProps> = ({ icons, prefix = '', children }: I
       return child;
     });
 
-    setModifiedIcon(<svg className={styles['ks-icons']}>{newIcons}</svg>);
+    setModifiedIcon(<svg style={css}>{newIcons}</svg>);
   }, [icons, prefix]);
 
   return (
