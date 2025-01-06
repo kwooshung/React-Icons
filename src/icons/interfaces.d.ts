@@ -69,11 +69,6 @@ export interface IconProps {
    */
   rotate?: number;
   /**
-   * @zh 旋转动画，如果为真，则1秒1圈，最多1000个间隔（也就是10000毫秒，即10秒）如果为1，也就是说1个10毫秒间隔的动画，也就是10毫秒一圈
-   * @en Rotation animation, if true, 1 circle per second, up to 1000 intervals (that is, 10000 milliseconds, 10 seconds) if 1, that is, an animation with a 10 millisecond interval, that is, 10 milliseconds per circle
-   */
-  spin?: number | boolean;
-  /**
    * @zh 点击事件
    * @en Click event
    * @param {MouseEvent<SVGSVGElement>} e 事件对象

@@ -1,4 +1,3 @@
-import styles from './icons.module.less';
 import { FC, ReactNode, useEffect, useState, MouseEvent, useContext, CSSProperties, memo } from 'react';
 import { IconProps } from './interfaces';
 import IconsContext from './IconsContext';
@@ -12,7 +11,6 @@ import IconsContext from './IconsContext';
 const getClassName = (className: string): string => {
   const classNames: string[] = [];
 
-  classNames.push(styles['ks-icon']);
   className && classNames.push(className);
   return classNames.join(' ');
 };
@@ -21,20 +19,13 @@ const getClassName = (className: string): string => {
  * @zh 获取样式
  * @en Get style
  * @param {number} size 尺寸
- * @param {number} rotate 旋转角度
- * @param {number | boolean} spin 旋转动画
  * @returns {CSSProperties} 样式
  */
-const getStyle = (size: number = 0, rotate?: number, spin?: number | boolean): CSSProperties => {
+const getStyle = (size: number = 0, rotate?: number): CSSProperties => {
   const styles: CSSProperties = {};
 
   size && (styles.fontSize = `${size}px`);
   rotate && (styles.transform = `rotate(${rotate}deg)`);
-  if (typeof spin === 'boolean' && spin === true) {
-    styles.animation = 'ks-icon-spin 10ms infinite linear';
-  } else if (typeof spin === 'number') {
-    styles.animation = `ks-icon-spin ${spin * 10}ms infinite linear`;
-  }
 
   return styles;
 };
@@ -45,7 +36,7 @@ const getStyle = (size: number = 0, rotate?: number, spin?: number | boolean): C
  * @param {IconProps} props 属性
  * @return {ReactNode} React节点
  */
-const Icon: FC<IconProps> = ({ name, id = undefined, className = '', size = 0, rotate = 0, spin = false, onClick, onDoubleClick }: IconProps): ReactNode => {
+const Icon: FC<IconProps> = ({ name, id = undefined, className = '', size = 0, rotate = 0, onClick, onDoubleClick }: IconProps): ReactNode => {
   /**
    * @zh 图标上下文
    * @en Icon context
@@ -62,7 +53,7 @@ const Icon: FC<IconProps> = ({ name, id = undefined, className = '', size = 0, r
    * @zh 样式
    * @en Style
    */
-  const [getStyles, setStyles] = useState<CSSProperties>(getStyle(size, rotate, spin));
+  const [getStyles, setStyles] = useState<CSSProperties>(getStyle(size, rotate));
 
   /**
    * @zh 设置前缀
@@ -75,8 +66,8 @@ const Icon: FC<IconProps> = ({ name, id = undefined, className = '', size = 0, r
   }, [className]);
 
   useEffect(() => {
-    setStyles(getStyle(size, rotate, spin));
-  }, [size, rotate, spin]);
+    setStyles(getStyle(size, rotate));
+  }, [size, rotate]);
 
   useEffect(() => {
     setPrefix(`ks-icon-${prefix ? `${prefix}-` : ''}${name}`);
