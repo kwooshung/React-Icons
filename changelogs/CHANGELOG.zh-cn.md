@@ -1,3 +1,7 @@
+## 🎉 2.2.1 `2025-01-06`
+### 🐛 Fix
+- 更改内部关节样式，以便可以是字体大小以调节尺寸 ([#1a0c9f3](https://github.com/kwooshung/React-Icons/commit/1a0c9f3d4a4caac403760f45578b053c5282a40b))
+
 ## 🎉 2.2.0 `2025-01-06`
 ### 🐛 Fix
 - 优化测试和演示 ([#cafb3d2](https://github.com/kwooshung/React-Icons/commit/cafb3d2725c62607161336edd2e8ece4a69e64e3))

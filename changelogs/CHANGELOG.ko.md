@@ -1,3 +1,7 @@
+## 🎉 2.2.1 `2025-01-06`
+### 🐛 Fix
+- 크기를 조정하기 위해 글꼴 크기가 될 수 있도록 내부 조인트 스타일을 변경하십시오. ([#1a0c9f3](https://github.com/kwooshung/React-Icons/commit/1a0c9f3d4a4caac403760f45578b053c5282a40b))
+
 ## 🎉 2.2.0 `2025-01-06`
 ### 🐛 Fix
 - 최적화 된 테스트 및 데모 ([#cafb3d2](https://github.com/kwooshung/React-Icons/commit/cafb3d2725c62607161336edd2e8ece4a69e64e3))

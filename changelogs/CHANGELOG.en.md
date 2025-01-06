@@ -1,3 +1,7 @@
+## 🎉 2.2.1 `2025-01-06`
+### 🐛 Fix
+- Change the inner joint style so that it can be font-size to adjust the size ([#1a0c9f3](https://github.com/kwooshung/React-Icons/commit/1a0c9f3d4a4caac403760f45578b053c5282a40b))
+
 ## 🎉 2.2.0 `2025-01-06`
 ### 🐛 Fix
 - Optimized testing and DEMO ([#cafb3d2](https://github.com/kwooshung/React-Icons/commit/cafb3d2725c62607161336edd2e8ece4a69e64e3))
