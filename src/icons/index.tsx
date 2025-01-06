@@ -9,7 +9,7 @@ import IconsContext from './IconsContext';
  * @returns {string} 类名
  */
 const getClassName = (className: string): string => {
-  const classNames: string[] = [];
+  const classNames: string[] = ['ks-icon'];
 
   className && classNames.push(className);
   return classNames.join(' ');
@@ -22,7 +22,7 @@ const getClassName = (className: string): string => {
  * @returns {CSSProperties} 样式
  */
 const getStyle = (size: number = 0, rotate?: number): CSSProperties => {
-  const styles: CSSProperties = {};
+  const styles: CSSProperties = { width: '1em', height: '1em' };
 
   size && (styles.fontSize = `${size}px`);
   rotate && (styles.transform = `rotate(${rotate}deg)`);
